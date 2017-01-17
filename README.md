@@ -1,5 +1,4 @@
-# 
-Prime Numbers
+# Prime Numbers
 
 The program generates prime numbers from zero to a specified range.
 
@@ -22,10 +21,7 @@ git clone https://github.com/DIDAH-ASEEY/PRIMENUMBERS.git
 - open the folder and select the file, primeNumbers.py to run the program
 - enter a range from which the prime numbers will be printed
 	for example an input of five will generate four prime numbers
-	1
-	2
-	3	
-	5
+	1 2 3 5
 
 ## Running Test
 
