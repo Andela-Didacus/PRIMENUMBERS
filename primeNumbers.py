@@ -9,6 +9,7 @@ def is_Prime(n):
                         break
                 else:
                     print number
+        
             
     else:
         return "TypeError"
@@ -17,7 +18,7 @@ def is_Prime(n):
 
 n = input("Enter a range: ")
 
-if type(n)==int:                                #checks the input from the user 
+if type(n)==int and n>0:                                #checks the input from the user 
     
     is_Prime(n)
     
