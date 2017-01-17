@@ -23,6 +23,21 @@ class KnownValues(unittest.TestCase):
     def test_isPrime(self):
         self.assertEqual(primeNumbers.is_Prime(-5),"TypeError")
 
+    def test_instance_of_type(self):
+        self.assertIsInstance(primeNumbers.is_Prime("H"),str)
+
+    def test_not_a_prime_number(self):
+        self.assertNotEqual(5, primeNumbers.is_Prime(5))
+
+    def test_acceptzero(self):
+        self.assertEqual(primeNumbers.is_Prime(0),"TypeError")
+
+    def test_accept_other_charcters(self):
+        self.assertEqual(primeNumbers.is_Prime("847_(%)"),"TypeError")
+
+    def test_negative_number(self):
+        self.assertEqual(primeNumbers.is_Prime(-1),"TypeError")
+
     
        
         
